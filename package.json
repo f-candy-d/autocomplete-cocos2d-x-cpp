@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-cocos2d-x-cpp",
   "main": "./lib/main",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Cocos2d-x (c++) class, property and method autocompletions. The major design pattern of this plugin was abstracted from Takashi Kitao's autocomplete-cocos2d-js.",
   "keywords": [],
   "repository": "https://github.com/f-candy-d/autocomplete-cocos2d-x-cpp.git",
