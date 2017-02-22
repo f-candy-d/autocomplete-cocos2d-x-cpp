@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Cocos2d-JS class, property and method autocompletions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/spec/provider-spec.coffee	/^describe 'Cocos2d-JS class, property and method autocompletions', ->$/;"	function	line:1
+getCompletions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/spec/provider-spec.coffee	/^  getCompletions = ->$/;"	function	line:4
+includes the classes of Cocos2d-JS	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/spec/provider-spec.coffee	/^  it 'includes the classes of Cocos2d-JS', ->$/;"	function	line:28
+includes the properties of Cocos2d-JS	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/spec/provider-spec.coffee	/^  it 'includes the properties of Cocos2d-JS', ->$/;"	function	line:34
+includes the methods of Cocos2d-JS	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/spec/provider-spec.coffee	/^  it 'includes the methods of Cocos2d-JS', ->$/;"	function	line:40
+0.7.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/CHANGELOG.md	/^## 0.7.0$/;"	function	line:1
+0.6.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/CHANGELOG.md	/^## 0.6.0$/;"	function	line:5
+0.3.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/CHANGELOG.md	/^## 0.3.0$/;"	function	line:8
+0.2.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/CHANGELOG.md	/^## 0.2.0$/;"	function	line:11
+0.1.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/CHANGELOG.md	/^## 0.1.0$/;"	function	line:16
+class	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/completions.json	/^  "class": [$/;"	function	line:2
+property	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/completions.json	/^  "property": [$/;"	function	line:400
+method	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/completions.json	/^  "method": [$/;"	function	line:1269
+name	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "name": "autocomplete-cocos2d-js",$/;"	function	line:2
+main	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "main": ".\/lib\/main",$/;"	function	line:3
+version	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "version": "0.7.0",$/;"	function	line:4
+description	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "description": "Cocos2d-JS class, property and method autocompletions",$/;"	function	line:5
+keywords	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "keywords": [],$/;"	function	line:6
+repository	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "repository": "https:\/\/github.com\/kitao\/autocomplete-cocos2d-js",$/;"	function	line:7
+license	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "license": "MIT",$/;"	function	line:8
+engines	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "engines": {$/;"	function	line:9
+atom	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	function	line:10
+dependencies	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "dependencies": {},$/;"	function	line:12
+providedServices	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^  "providedServices": {$/;"	function	line:13
+autocomplete.provider	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^    "autocomplete.provider": {$/;"	function	line:14
+versions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^      "versions": {$/;"	function	line:15
+2.0.0	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/package.json	/^        "2.0.0": "getProvider"$/;"	function	line:16
+parse_url	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def parse_url$/;"	method	line:15
+parse_name	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def parse_name(doc, xpath)$/;"	method	line:21
+parse_page!	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def parse_page!(completions, url)$/;"	method	line:27
+finish_completions!	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def finish_completions!(completions)$/;"	method	line:36
+save_completions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def save_completions(completions)$/;"	method	line:44
+make_completions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/make_completions.rb	/^def make_completions$/;"	method	line:49
+activate	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/lib/main.coffee	/^  activate: -> provider.loadCompletions()$/;"	function	line:4
+getProvider	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/lib/main.coffee	/^  getProvider: -> provider$/;"	function	line:5
+loadCompletions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/lib/provider.coffee	/^  loadCompletions: ->$/;"	function	line:10
+getSuggestions	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/lib/provider.coffee	/^  getSuggestions: ({editor, prefix}) ->$/;"	function	line:15
+Cocos2d-JS Autocomplete Package	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/README.md	/^# Cocos2d-JS Autocomplete Package$/;"	function	line:1
+How to Use	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/README.md	/^## How to Use$/;"	function	line:7
+Supported Version of Cocos2d-JS	/home/daichi/dev/projects/git_forked/autocomplete-cocos2d-js/README.md	/^## Supported Version of Cocos2d-JS$/;"	function	line:11
+Category	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^enum class Category {$/;"	class	line:6	file:
+CLASS	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	CLASS,$/;"	member	line:8	class:Category	file:
+FUNCTION	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	FUNCTION,$/;"	member	line:10	class:Category	file:
+PROPERTY	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	PROPERTY,$/;"	member	line:12	class:Category	file:
+CAM	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	CAM,$/;"	member	line:14	class:Category	file:
+IGNORED	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	IGNORED,$/;"	member	line:16	class:Category	file:
+Regex	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^struct Regex {$/;"	struct	line:21	file:
+regex	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	std::string regex;$/;"	member	line:22	struct:Regex	file:
+category	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	Category category;$/;"	member	line:23	struct:Regex	file:
+Regex	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^	Regex(std::string r,Category c)$/;"	function	line:26	struct:Regex	signature:(std::string r,Category c)
+classNames	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^std::vector<std::string> classNames;$/;"	variable	line:33
+funcNames	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^std::vector<std::string> funcNames;$/;"	variable	line:34
+propNames	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^std::vector<std::string> propNames;$/;"	variable	line:35
+regexes	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^const Regex regexes[] = {$/;"	variable	line:36
+extract	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^void extract(std::string path)$/;"	function	line:45	signature:(std::string path)
+exportData	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^void exportData()$/;"	function	line:63	signature:()
+main	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:68	signature:(int argc, char const *argv[])
+parse_url	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def parse_url$/;"	method	line:15
+parse_name	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def parse_name(doc, xpath)$/;"	method	line:21
+parse_page!	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def parse_page!(completions, url)$/;"	method	line:27
+finish_completions!	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def finish_completions!(completions)$/;"	method	line:36
+save_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def save_completions(completions)$/;"	method	line:44
+make_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions.rb	/^def make_completions$/;"	method	line:49
+parse_url	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def parse_url$/;"	method	line:19
+parse_me_pr_name	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def parse_me_pr_name(doc, xpath)$/;"	method	line:26
+parse_class_name	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def parse_class_name(doc, xpath)$/;"	method	line:33
+parse_page!	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def parse_page!(completions, url)$/;"	method	line:39
+finish_completions!	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def finish_completions!(completions)$/;"	method	line:48
+save_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def save_completions(completions)$/;"	method	line:56
+make_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def make_completions$/;"	method	line:61
+test_main	/home/daichi/.atom/packages/autocomplete-cocos2d-js/make_completions_cpp.rb	/^def test_main$/;"	method	line:69
+class	/home/daichi/.atom/packages/autocomplete-cocos2d-js/completions_cpp.json	/^  "class": [$/;"	function	line:2
+property	/home/daichi/.atom/packages/autocomplete-cocos2d-js/completions_cpp.json	/^  "property": [$/;"	function	line:575
+method	/home/daichi/.atom/packages/autocomplete-cocos2d-js/completions_cpp.json	/^  "method": [$/;"	function	line:696
+class	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/completions_cpp.json	/^  "class": [$/;"	function	line:2
+property	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/completions_cpp.json	/^  "property": [$/;"	function	line:553
+method	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/completions_cpp.json	/^  "method": [$/;"	function	line:673
+name	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "name": "autocomplete-cocos2d-x-cpp",$/;"	function	line:2
+main	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "main": ".\/lib\/main",$/;"	function	line:3
+version	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "version": "0.1.0",$/;"	function	line:4
+description	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "description": "Cocos2d-x (c++) class, property and method autocompletions",$/;"	function	line:5
+keywords	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "keywords": [],$/;"	function	line:6
+repository	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "repository": "https:\/\/github.com\/f-candy-d\/autocomplete-cocos2d-js.git",$/;"	function	line:7
+license	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "license": "MIT",$/;"	function	line:8
+engines	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "engines": {$/;"	function	line:9
+atom	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	function	line:10
+dependencies	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "dependencies": {},$/;"	function	line:12
+providedServices	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^  "providedServices": {$/;"	function	line:13
+autocomplete.provider	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^    "autocomplete.provider": {$/;"	function	line:14
+versions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^      "versions": {$/;"	function	line:15
+2.0.0	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/package.json	/^        "2.0.0": "getProvider"$/;"	function	line:16
+Cocos2d-x (c++) class, property and method autocompletions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/spec/provider-spec.coffee	/^describe 'Cocos2d-x (c++) class, property and method autocompletions', ->$/;"	function	line:1
+getCompletions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/spec/provider-spec.coffee	/^  getCompletions = ->$/;"	function	line:4
+includes the classes of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/spec/provider-spec.coffee	/^  it 'includes the classes of Cocos2d-x (c++)', ->$/;"	function	line:28
+includes the properties of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/spec/provider-spec.coffee	/^  it 'includes the properties of Cocos2d-x (c++)', ->$/;"	function	line:34
+includes the methods of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/spec/provider-spec.coffee	/^  it 'includes the methods of Cocos2d-x (c++)', ->$/;"	function	line:40
+Cocos2d-x (c++) Autocomplete Package	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^# Cocos2d-x (c++) Autocomplete Package$/;"	function	line:1
+How to Use	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^## How to Use$/;"	function	line:7
+Supported Version of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^## Supported Version of Cocos2d-x (c++)$/;"	function	line:11
