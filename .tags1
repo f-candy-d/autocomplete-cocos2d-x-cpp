@@ -4,3 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+parse_url	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_url$/;"	method	line:25
+parse_me_pr_name	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_me_pr_name(doc, xpath)$/;"	method	line:32
+parse_class_name	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_class_name(doc, xpath)$/;"	method	line:39
+parse_page!	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_page!(completions, url)$/;"	method	line:45
+remove_rubbish	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def remove_rubbish(completions)$/;"	method	line:56
+save_rubbish	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def save_rubbish(rubbishes)$/;"	method	line:69
+finish_completions!	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def finish_completions!(completions)$/;"	method	line:78
+save_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def save_completions(completions)$/;"	method	line:86
+make_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def make_completions$/;"	method	line:91

@@ -9,10 +9,15 @@ RUBBISH_FILENAME = File.join(File.dirname(__FILE__), './rubbishes_cpp.txt')
 URL_XPATH = '//td/child::a[position()=1]/@href'
 CLASS_XPATH = '//div[@class="headertitle"]/div[@class="title"]/text()'
 
-#the format of METHOD_XPATH and PROPERTY_XPATH
 ME_PR_PATH_FORMAT = '//child::table[child::tr[child::td[child::h2[child::a[@name="%s"]]]]]/tr[@name="cpp"]/td[@class="memItemRight"]'
+#public method
 METHOD_XPATH = ME_PR_PATH_FORMAT % 'pub-methods'
-PROPERTY_XPATH = ME_PR_PATH_FORMAT % 'pub-static-attribs'
+#public static method
+STATIC_METHOD_XPATH  = ME_PR_PATH_FORMAT % 'pub-static-methods'
+#attributes
+ATTRIBS_XPATH = ME_PR_PATH_FORMAT % 'pub-static-attribs'
+#enum
+TYPES_XPATH =  ME_PR_PATH_FORMAT % 'pub-types'
 
 #for method and property names
 ME_PR_NAME_XPATH = './a[position()=1]/text()'
@@ -41,8 +46,10 @@ def parse_page!(completions, url)
 	puts "parse #{url}"
 	doc = Nokogiri::HTML(open(url))
 	completions[:class] += parse_class_name(doc, CLASS_XPATH)
-	completions[:property] += parse_me_pr_name(doc, PROPERTY_XPATH)
-	completions[:method] += parse_me_pr_name(doc, METHOD_XPATH).map { |name| name+='()' }
+	completions[:property] += parse_me_pr_name(doc, ATTRIBS_XPATH)
+	completions[:property] += parse_me_pr_name(doc,TYPES_XPATH)
+	completions[:method] += parse_me_pr_name(doc, METHOD_XPATH).map { |name| name += '(' }
+	completions[:method] += parse_me_pr_name(doc,STATIC_METHOD_XPATH).map { |name| name += '(' }
 	completions
 end
 
@@ -50,7 +57,7 @@ def remove_rubbish(completions)
 	rubbishes = []
 	completions.each { |key , value|
 		value.delete_if { |name|
-			if 0 != (/\A([a-z]|[A-Z]|_)\w*(\(\))?\Z/ =~ name)
+			if 0 != (/\A([a-z]|[A-Z]|_)\w*(\()?\Z/ =~ name)
 				rubbishes.push(name)
 				true
 			end

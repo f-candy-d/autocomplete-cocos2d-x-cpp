@@ -103,3 +103,12 @@ includes the methods of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete
 Cocos2d-x (c++) Autocomplete Package	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^# Cocos2d-x (c++) Autocomplete Package$/;"	function	line:1
 How to Use	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^## How to Use$/;"	function	line:7
 Supported Version of Cocos2d-x (c++)	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/README.md	/^## Supported Version of Cocos2d-x (c++)$/;"	function	line:11
+parse_url	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_url$/;"	method	line:25
+parse_me_pr_name	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_me_pr_name(doc, xpath)$/;"	method	line:32
+parse_class_name	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_class_name(doc, xpath)$/;"	method	line:39
+parse_page!	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def parse_page!(completions, url)$/;"	method	line:45
+remove_rubbish	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def remove_rubbish(completions)$/;"	method	line:56
+save_rubbish	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def save_rubbish(rubbishes)$/;"	method	line:69
+finish_completions!	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def finish_completions!(completions)$/;"	method	line:78
+save_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def save_completions(completions)$/;"	method	line:86
+make_completions	/home/daichi/.atom/packages/autocomplete-cocos2d-x-cpp/make_completions_cpp.rb	/^def make_completions$/;"	method	line:91
